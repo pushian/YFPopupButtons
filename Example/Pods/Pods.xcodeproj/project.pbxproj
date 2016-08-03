@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08788F2A694E15175481A19F988759A9 /* YFPopupButtons-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CB619298FBC336EB0C077196F5A60E6 /* YFPopupButtons-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18E8306342941BE60107C50D8AA7D9C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		2938DE02F6C49097B06EDD84DB5010FA /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77DD024FE1DD937D2105A54C98F385D /* ReplaceMe.swift */; };
+		2ABF910CE34C88857BB69CCC6E8BE0EC /* Pods-YFPopupButtons_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B870257FAD4D9D0FB3DE2335C06A03A0 /* Pods-YFPopupButtons_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		395B2C4374E7F229362F24CCA713D7AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		461D9979475C97E9AD03620D84FFEED7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		6F52A371E68E03304BBD7B4BDAF903BE /* Pods-YFPopupButtons_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27118338AEE6E49326FAAF6C917FB1D5 /* Pods-YFPopupButtons_Example-dummy.m */; };
+		AF9508FEBCB240394C00DB775627C893 /* Pods-YFPopupButtons_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC02795F2706730433EC5C3EB7B4234 /* Pods-YFPopupButtons_Tests-dummy.m */; };
+		D203FF1723C385C9BD2701611539912B /* Pods-YFPopupButtons_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E3E864499852439539FBCA922F44176 /* Pods-YFPopupButtons_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6D5B827C680415E0C8DB04FE6E7BF86 /* YFPopupButtons-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5C9AB5C033399ECE3D86DF46A88434 /* YFPopupButtons-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57A31838D82922003DCDD0845C41CA0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62C459E4F67F5CAC3801B808829754A8;
+			remoteInfo = YFPopupButtons;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E3E864499852439539FBCA922F44176 /* Pods-YFPopupButtons_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YFPopupButtons_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1F6D46E4FCC5B900370D25FC6A897251 /* Pods-YFPopupButtons_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YFPopupButtons_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		244AD7D973F1571E7EBC41FF600A72F9 /* Pods-YFPopupButtons_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YFPopupButtons_Example.release.xcconfig"; sourceTree = "<group>"; };
+		27118338AEE6E49326FAAF6C917FB1D5 /* Pods-YFPopupButtons_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YFPopupButtons_Example-dummy.m"; sourceTree = "<group>"; };
+		28621A3DF6E3D6F49E9D682C0CF8F2DF /* Pods-YFPopupButtons_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-YFPopupButtons_Example.modulemap"; sourceTree = "<group>"; };
+		43A7BC8ECB4D53089F75949F9AEC91E3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51704F5C31C1209E9350AA843F9FDE26 /* YFPopupButtons.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YFPopupButtons.xcconfig; sourceTree = "<group>"; };
+		52B4DB0C122C24B16A1E9E44E0CB2BE3 /* Pods-YFPopupButtons_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YFPopupButtons_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6CB619298FBC336EB0C077196F5A60E6 /* YFPopupButtons-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YFPopupButtons-umbrella.h"; sourceTree = "<group>"; };
+		741D189628A0C0C884067F088042FA5D /* Pods-YFPopupButtons_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-YFPopupButtons_Tests.modulemap"; sourceTree = "<group>"; };
+		7BC02795F2706730433EC5C3EB7B4234 /* Pods-YFPopupButtons_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YFPopupButtons_Tests-dummy.m"; sourceTree = "<group>"; };
+		8C6AE3E44E4AF1E2E161CB5BD2A33056 /* Pods-YFPopupButtons_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YFPopupButtons_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95E1D7DAA16604A9C9CAC69BFED6477A /* Pods-YFPopupButtons_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YFPopupButtons_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		98B0389C3A695C69974D9D20A2D62DE3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BFB13888FAEA5308DB619ADEB4B4FA9 /* Pods-YFPopupButtons_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YFPopupButtons_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		A14B4692867B02E83F5364BCD1CC0E28 /* Pods-YFPopupButtons_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YFPopupButtons_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A44C0A7E773903611C19737A1326E1C6 /* YFPopupButtons-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YFPopupButtons-prefix.pch"; sourceTree = "<group>"; };
+		A77DD024FE1DD937D2105A54C98F385D /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		ACCD9CF8F65A1B80364F55157CBEC80D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE5F9AD765A907FF299A339A811BD65B /* YFPopupButtons.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = YFPopupButtons.modulemap; sourceTree = "<group>"; };
+		AF66DFD7232505E5028EA05452E7DB45 /* YFPopupButtons.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YFPopupButtons.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4922B133F3E1EA5CC162EA3A5467FE1 /* Pods_YFPopupButtons_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YFPopupButtons_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B870257FAD4D9D0FB3DE2335C06A03A0 /* Pods-YFPopupButtons_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YFPopupButtons_Example-umbrella.h"; sourceTree = "<group>"; };
+		C00AD9CF3F91F3F8F4840CF00BB8C4F7 /* Pods-YFPopupButtons_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YFPopupButtons_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C464403C4BB650E80E4E7462A596D5D0 /* Pods-YFPopupButtons_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YFPopupButtons_Example-resources.sh"; sourceTree = "<group>"; };
+		CA25A8B814B7492AD8EB4F5CDDC6F334 /* Pods-YFPopupButtons_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YFPopupButtons_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D60584D9A6416B28D2BAAB3FEDCEDD50 /* Pods-YFPopupButtons_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YFPopupButtons_Tests-resources.sh"; sourceTree = "<group>"; };
+		E09A80A6DA4A74F356B343EC8D7317D1 /* Pods-YFPopupButtons_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YFPopupButtons_Example-frameworks.sh"; sourceTree = "<group>"; };
+		FA070EEF0DEF687821494797DD9DDD58 /* Pods_YFPopupButtons_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YFPopupButtons_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF5C9AB5C033399ECE3D86DF46A88434 /* YFPopupButtons-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YFPopupButtons-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39CA86D79AB2FB3432AD2ABCABDFE0F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				395B2C4374E7F229362F24CCA713D7AC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		970312B3057A5AF150FD58C56849F06D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				461D9979475C97E9AD03620D84FFEED7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D344996C13109F0108DC4D5E9E2F2ED3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E8306342941BE60107C50D8AA7D9C5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		40E8E2481F6F27324207F56CD9837935 /* Pods-YFPopupButtons_Example */ = {
+			isa = PBXGroup;
+			children = (
+				ACCD9CF8F65A1B80364F55157CBEC80D /* Info.plist */,
+				28621A3DF6E3D6F49E9D682C0CF8F2DF /* Pods-YFPopupButtons_Example.modulemap */,
+				8C6AE3E44E4AF1E2E161CB5BD2A33056 /* Pods-YFPopupButtons_Example-acknowledgements.markdown */,
+				A14B4692867B02E83F5364BCD1CC0E28 /* Pods-YFPopupButtons_Example-acknowledgements.plist */,
+				27118338AEE6E49326FAAF6C917FB1D5 /* Pods-YFPopupButtons_Example-dummy.m */,
+				E09A80A6DA4A74F356B343EC8D7317D1 /* Pods-YFPopupButtons_Example-frameworks.sh */,
+				C464403C4BB650E80E4E7462A596D5D0 /* Pods-YFPopupButtons_Example-resources.sh */,
+				B870257FAD4D9D0FB3DE2335C06A03A0 /* Pods-YFPopupButtons_Example-umbrella.h */,
+				1F6D46E4FCC5B900370D25FC6A897251 /* Pods-YFPopupButtons_Example.debug.xcconfig */,
+				244AD7D973F1571E7EBC41FF600A72F9 /* Pods-YFPopupButtons_Example.release.xcconfig */,
+			);
+			name = "Pods-YFPopupButtons_Example";
+			path = "Target Support Files/Pods-YFPopupButtons_Example";
+			sourceTree = "<group>";
+		};
+		6F93F9870A4EE54A711CC972E6DB1C75 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9E915E86427DD311779CEC29D822F51 /* YFPopupButtons */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				6F93F9870A4EE54A711CC972E6DB1C75 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				848877757778DA54C51912FA58F41C64 /* Products */,
+				F25B38625E420C8277F0DC55285BC510 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		848877757778DA54C51912FA58F41C64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA070EEF0DEF687821494797DD9DDD58 /* Pods_YFPopupButtons_Example.framework */,
+				B4922B133F3E1EA5CC162EA3A5467FE1 /* Pods_YFPopupButtons_Tests.framework */,
+				AF66DFD7232505E5028EA05452E7DB45 /* YFPopupButtons.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3014CA10D5B71115501693EB72AF5C0 /* Pods-YFPopupButtons_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				98B0389C3A695C69974D9D20A2D62DE3 /* Info.plist */,
+				741D189628A0C0C884067F088042FA5D /* Pods-YFPopupButtons_Tests.modulemap */,
+				C00AD9CF3F91F3F8F4840CF00BB8C4F7 /* Pods-YFPopupButtons_Tests-acknowledgements.markdown */,
+				95E1D7DAA16604A9C9CAC69BFED6477A /* Pods-YFPopupButtons_Tests-acknowledgements.plist */,
+				7BC02795F2706730433EC5C3EB7B4234 /* Pods-YFPopupButtons_Tests-dummy.m */,
+				9BFB13888FAEA5308DB619ADEB4B4FA9 /* Pods-YFPopupButtons_Tests-frameworks.sh */,
+				D60584D9A6416B28D2BAAB3FEDCEDD50 /* Pods-YFPopupButtons_Tests-resources.sh */,
+				0E3E864499852439539FBCA922F44176 /* Pods-YFPopupButtons_Tests-umbrella.h */,
+				CA25A8B814B7492AD8EB4F5CDDC6F334 /* Pods-YFPopupButtons_Tests.debug.xcconfig */,
+				52B4DB0C122C24B16A1E9E44E0CB2BE3 /* Pods-YFPopupButtons_Tests.release.xcconfig */,
+			);
+			name = "Pods-YFPopupButtons_Tests";
+			path = "Target Support Files/Pods-YFPopupButtons_Tests";
+			sourceTree = "<group>";
+		};
+		CAA7771413B79A01ADAE13EB625993BA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A77DD024FE1DD937D2105A54C98F385D /* ReplaceMe.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CC931721E6ED8BFFA83B79859D3AE69C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				43A7BC8ECB4D53089F75949F9AEC91E3 /* Info.plist */,
+				AE5F9AD765A907FF299A339A811BD65B /* YFPopupButtons.modulemap */,
+				51704F5C31C1209E9350AA843F9FDE26 /* YFPopupButtons.xcconfig */,
+				FF5C9AB5C033399ECE3D86DF46A88434 /* YFPopupButtons-dummy.m */,
+				A44C0A7E773903611C19737A1326E1C6 /* YFPopupButtons-prefix.pch */,
+				6CB619298FBC336EB0C077196F5A60E6 /* YFPopupButtons-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YFPopupButtons";
+			sourceTree = "<group>";
+		};
+		D9E915E86427DD311779CEC29D822F51 /* YFPopupButtons */ = {
+			isa = PBXGroup;
+			children = (
+				CC931721E6ED8BFFA83B79859D3AE69C /* Support Files */,
+				F57F68E3DA6DECFBAA8D1E3A036B25E9 /* YFPopupButtons */,
+			);
+			name = YFPopupButtons;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F25B38625E420C8277F0DC55285BC510 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				40E8E2481F6F27324207F56CD9837935 /* Pods-YFPopupButtons_Example */,
+				C3014CA10D5B71115501693EB72AF5C0 /* Pods-YFPopupButtons_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F57F68E3DA6DECFBAA8D1E3A036B25E9 /* YFPopupButtons */ = {
+			isa = PBXGroup;
+			children = (
+				CAA7771413B79A01ADAE13EB625993BA /* Classes */,
+			);
+			path = YFPopupButtons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		57FB482432A28358300C6DCB3F85A0A8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ABF910CE34C88857BB69CCC6E8BE0EC /* Pods-YFPopupButtons_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9B3FAC75623CBF487E3B76F51AC11D8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08788F2A694E15175481A19F988759A9 /* YFPopupButtons-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B448F323911927EAC659E60FF2802072 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D203FF1723C385C9BD2701611539912B /* Pods-YFPopupButtons_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		62C459E4F67F5CAC3801B808829754A8 /* YFPopupButtons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6913BB86DD385088B310CDF7ED96088 /* Build configuration list for PBXNativeTarget "YFPopupButtons" */;
+			buildPhases = (
+				1751ABAA384554BA24D3652EDAC5A8A6 /* Sources */,
+				39CA86D79AB2FB3432AD2ABCABDFE0F6 /* Frameworks */,
+				A9B3FAC75623CBF487E3B76F51AC11D8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YFPopupButtons;
+			productName = YFPopupButtons;
+			productReference = AF66DFD7232505E5028EA05452E7DB45 /* YFPopupButtons.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DBB82EBD15A8C6CD130F0C17D0B6A301 /* Pods-YFPopupButtons_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 479DD3AC411144A6E5F3955FF37174FE /* Build configuration list for PBXNativeTarget "Pods-YFPopupButtons_Tests" */;
+			buildPhases = (
+				89BEDF1A986DCB369AD6F8BBEF8D0497 /* Sources */,
+				D344996C13109F0108DC4D5E9E2F2ED3 /* Frameworks */,
+				B448F323911927EAC659E60FF2802072 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-YFPopupButtons_Tests";
+			productName = "Pods-YFPopupButtons_Tests";
+			productReference = B4922B133F3E1EA5CC162EA3A5467FE1 /* Pods_YFPopupButtons_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FEAA048ECAF07A96768B6E2B05BB82AA /* Pods-YFPopupButtons_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0CFD1180663E6DA718CEAF67ECD3E50 /* Build configuration list for PBXNativeTarget "Pods-YFPopupButtons_Example" */;
+			buildPhases = (
+				7D8571C587F77A5C9515B037C8C45F8B /* Sources */,
+				970312B3057A5AF150FD58C56849F06D /* Frameworks */,
+				57FB482432A28358300C6DCB3F85A0A8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8D0ED07BA556B72A15FD370ABF7EB6A /* PBXTargetDependency */,
+			);
+			name = "Pods-YFPopupButtons_Example";
+			productName = "Pods-YFPopupButtons_Example";
+			productReference = FA070EEF0DEF687821494797DD9DDD58 /* Pods_YFPopupButtons_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 848877757778DA54C51912FA58F41C64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEAA048ECAF07A96768B6E2B05BB82AA /* Pods-YFPopupButtons_Example */,
+				DBB82EBD15A8C6CD130F0C17D0B6A301 /* Pods-YFPopupButtons_Tests */,
+				62C459E4F67F5CAC3801B808829754A8 /* YFPopupButtons */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1751ABAA384554BA24D3652EDAC5A8A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2938DE02F6C49097B06EDD84DB5010FA /* ReplaceMe.swift in Sources */,
+				D6D5B827C680415E0C8DB04FE6E7BF86 /* YFPopupButtons-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D8571C587F77A5C9515B037C8C45F8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F52A371E68E03304BBD7B4BDAF903BE /* Pods-YFPopupButtons_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89BEDF1A986DCB369AD6F8BBEF8D0497 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF9508FEBCB240394C00DB775627C893 /* Pods-YFPopupButtons_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8D0ED07BA556B72A15FD370ABF7EB6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YFPopupButtons;
+			target = 62C459E4F67F5CAC3801B808829754A8 /* YFPopupButtons */;
+			targetProxy = 57A31838D82922003DCDD0845C41CA0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49A402493B8BACA94E12FF9D40DEE446 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F6D46E4FCC5B900370D25FC6A897251 /* Pods-YFPopupButtons_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YFPopupButtons_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YFPopupButtons_Example/Pods-YFPopupButtons_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YFPopupButtons_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7BF88AFECFEE98C2325A0986874FDE0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51704F5C31C1209E9350AA843F9FDE26 /* YFPopupButtons.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YFPopupButtons/YFPopupButtons-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YFPopupButtons/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YFPopupButtons/YFPopupButtons.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = YFPopupButtons;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		92F67E9BEB7E881D8222BC74731F1739 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 244AD7D973F1571E7EBC41FF600A72F9 /* Pods-YFPopupButtons_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YFPopupButtons_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YFPopupButtons_Example/Pods-YFPopupButtons_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YFPopupButtons_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9D663D24012F34A90E5EAAAAB4797298 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51704F5C31C1209E9350AA843F9FDE26 /* YFPopupButtons.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YFPopupButtons/YFPopupButtons-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YFPopupButtons/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YFPopupButtons/YFPopupButtons.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = YFPopupButtons;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C5E957626CF86A26F434A3F10D46690E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52B4DB0C122C24B16A1E9E44E0CB2BE3 /* Pods-YFPopupButtons_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YFPopupButtons_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YFPopupButtons_Tests/Pods-YFPopupButtons_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YFPopupButtons_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D8A3697C5FB945F31E01CDF8D1C7CDDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA25A8B814B7492AD8EB4F5CDDC6F334 /* Pods-YFPopupButtons_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YFPopupButtons_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YFPopupButtons_Tests/Pods-YFPopupButtons_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YFPopupButtons_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		479DD3AC411144A6E5F3955FF37174FE /* Build configuration list for PBXNativeTarget "Pods-YFPopupButtons_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8A3697C5FB945F31E01CDF8D1C7CDDC /* Debug */,
+				C5E957626CF86A26F434A3F10D46690E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0CFD1180663E6DA718CEAF67ECD3E50 /* Build configuration list for PBXNativeTarget "Pods-YFPopupButtons_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49A402493B8BACA94E12FF9D40DEE446 /* Debug */,
+				92F67E9BEB7E881D8222BC74731F1739 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6913BB86DD385088B310CDF7ED96088 /* Build configuration list for PBXNativeTarget "YFPopupButtons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D663D24012F34A90E5EAAAAB4797298 /* Debug */,
+				7BF88AFECFEE98C2325A0986874FDE0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

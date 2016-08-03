@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'YFPopupButtons'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of YFPopupButtons.'
+  s.summary          = 'A subclass of UIView which is capable of popping up buttons from the bottom of the view.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,10 +18,10 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+A subclass of UIView which is capable of popping up buttons from the bottom of the view. The users would be able to customize the buttons.
+DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/YFPopupButtons'
+  s.homepage         = 'https://github.com/pushian/YFPopupButtons'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'pushian' => 'l@fooyo.sg' }

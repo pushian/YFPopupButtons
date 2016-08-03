@@ -1,0 +1,22 @@
+{
+  "name": "YFPopupButtons",
+  "version": "0.1.0",
+  "summary": "A short description of YFPopupButtons.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/YFPopupButtons",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "pushian": "l@fooyo.sg"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/YFPopupButtons.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "YFPopupButtons/Classes/**/*"
+}

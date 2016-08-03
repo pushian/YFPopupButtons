@@ -1,0 +1,6 @@
+framework module YFPopupButtons {
+  umbrella header "YFPopupButtons-umbrella.h"
+
+  export *
+  module * { export * }
+}

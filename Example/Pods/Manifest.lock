@@ -1,0 +1,16 @@
+PODS:
+  - YFPopupButtons (0.1.0)
+
+DEPENDENCIES:
+  - YFPopupButtons (from `../`)
+
+EXTERNAL SOURCES:
+  YFPopupButtons:
+    :path: ../
+
+SPEC CHECKSUMS:
+  YFPopupButtons: 70e8a578bb8ea9631021a0fbf4f4d8a21df6ef89
+
+PODFILE CHECKSUM: 091a1ae3f479baf6fcbbc994f71ce293dedd0566
+
+COCOAPODS: 1.0.1
