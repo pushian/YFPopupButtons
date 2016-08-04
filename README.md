@@ -32,7 +32,7 @@ testView.delegate = self
 ```swift
 testView.show()
 ```
-- Dismiss the button view and the buttons. Normally, the user does not have to call this function in their own code because there is alreay built in dismiss actions in the view.
+- Dismiss the button view and the buttons. Normally, the user does not have to call this function in their own code because there are alreay built in dismiss actions in the view.
 ```swift
 testView.dismiss()
 ```
@@ -42,7 +42,7 @@ testView.dismiss()
 ```swift
 func numOfItems(buttonsView: YFPopupButtonsView) -> Int
 ```
-- Indicate the maximum number of buttons allowed for displaying in a single row.
+- Indicate the maximum number of buttons allowed for display in a single row.
 ```swift
 func maxNumberOfItemsInRow(buttonsView: YFPopupButtonsView) -> Int
 ```
