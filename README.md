@@ -30,7 +30,7 @@ testView.delegate = self
 ###Core Functions
 - Display the button view and pop up the buttons.
 ```swift
-    testView.show()
+testView.show()
 ```
 - Dismiss the button view and the buttons. Normally, the user does not have to call this function in their own code because there is alreay built in dismiss actions in the view.
 ```swift
@@ -38,10 +38,32 @@ testView.dismiss()
 ```
 
 ###Delegate Functions
-- func numOfItems(buttonsView: YFPopupButtonsView) -> Int
-- func maxNumberOfItemsInRow(buttonsView: YFPopupButtonsView) -> Int
-- func itemSize(buttonsView: YFPopupButtonsView) -> CGSize
-- func buttonsView(buttonsView: YFPopupButtonsView, itemForIndex index: Int) -> YFPopupbotton
+- Indicate the total number of buttons.
+```swift
+func numOfItems(buttonsView: YFPopupButtonsView) -> Int
+```
+- Indicate the maximum number of buttons allowed for displaying in a single row.
+```swift
+func maxNumberOfItemsInRow(buttonsView: YFPopupButtonsView) -> Int
+```
+- Define the size of all the buttons.
+```swift
+func itemSize(buttonsView: YFPopupButtonsView) -> CGSize
+```
+- Initialize and customize the buttons.
+```swift
+func buttonsView(buttonsView: YFPopupButtonsView, itemForIndex index: Int) -> YFPopupbotton
+```
+####Example of Defining Round Buttons with Image and Title
+```swift
+func buttonsView(buttonsView: YFPopupButtonsView, itemForIndex index: Int) -> YFPopupbotton {
+let button = YFPopupbotton(contentImage: UIImage(named: "fbIcon")!, title: "Title")
+button.contentImageView.layer.cornerRadius = 30
+button.contentImageView.backgroundColor = .whiteColor()
+button.contentImageView.contentMode = .ScaleAspectFill
+return button
+}
+```
 - func buttonsView(buttonsView: YFPopupButtonsView, didTapItemAtIndex index: Int)
 - optional func sideMargin(buttonsView: YFPopupButtonsView) -> CGFloat
 - optional func spaceBetweenRows(buttonsView: YFPopupButtonsView) -> CGFloat
