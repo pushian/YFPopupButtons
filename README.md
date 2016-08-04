@@ -20,13 +20,17 @@ it, simply add the following line to your Podfile:
 pod "YFPopupButtons"
 ```
 
-##How to use
+##How To Use
 
 - create a UIView with the subclass YFPopupButtonsView
 - set the delegate
+- call the functions to show or dismiss the buttons
 
-##Delegate functions
-
+##Features List
+###Core Functions
+- show()
+- dismiss()
+###Delegate Functions
 - func numOfItems(buttonsView: YFPopupButtonsView) -> Int
 - func maxNumberOfItemsInRow(buttonsView: YFPopupButtonsView) -> Int
 - func itemSize(buttonsView: YFPopupButtonsView) -> CGSize

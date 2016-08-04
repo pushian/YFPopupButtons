@@ -34,7 +34,7 @@ public class YFPopupButtonsView: UIView {
         fatalError("init(coder:) has not been implemented")
     }
     
-    public func initialCommit() {
+    func initialCommit() {
         if let delegate = delegate {
             setConstraints()
             let width = sideMargin + sideMargin + CGFloat(delegate.maxNumberOfItemsInRow(self)) * delegate.itemSize(self).width
