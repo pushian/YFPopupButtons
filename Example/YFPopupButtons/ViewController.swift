@@ -70,11 +70,11 @@ extension ViewController: YFPopupBottonsViewDelegate {
         return 3
     }
     func itemSize(buttonsView: YFPopupButtonsView) -> CGSize {
-        return CGSize(width: 70, height: 90)
+        return CGSize(width: 60, height: 80)
     }
     func buttonsView(buttonsView: YFPopupButtonsView, itemForIndex index: Int) -> YFPopupbotton {
         let button = YFPopupbotton(contentImage: UIImage(named: "fbIcon")!, title: "Title")
-        button.contentImageView.layer.cornerRadius = 35
+        button.contentImageView.layer.cornerRadius = 30
         button.contentImageView.backgroundColor = .whiteColor()
         button.contentImageView.contentMode = .ScaleAspectFill
         return button
@@ -101,11 +101,11 @@ extension ViewController: YFPopupBottonsViewDelegate {
     }
     
     func sideMargin(buttonsView: YFPopupButtonsView) -> CGFloat {
-        return 50
+        return 40
     }
     
     func spaceBetweenRows(buttonsView: YFPopupButtonsView) -> CGFloat {
-        return 20
+        return 15
     }
 }
 
