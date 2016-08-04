@@ -54,7 +54,8 @@ func itemSize(buttonsView: YFPopupButtonsView) -> CGSize
 ```swift
 func buttonsView(buttonsView: YFPopupButtonsView, itemForIndex index: Int) -> YFPopupbotton
 ```
-> Example of Defining Round Buttons with Image and Title <
+> Example of Defining Round Buttons with Image and Title.
+
 ```swift
 func buttonsView(buttonsView: YFPopupButtonsView, itemForIndex index: Int) -> YFPopupbotton {
     let button = YFPopupbotton(contentImage: UIImage(named: "fbIcon")!, title: "Title")
