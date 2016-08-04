@@ -65,12 +65,26 @@ func buttonsView(buttonsView: YFPopupButtonsView, itemForIndex index: Int) -> YF
     return button
 }
 ```
-- func buttonsView(buttonsView: YFPopupButtonsView, didTapItemAtIndex index: Int)
-- optional func sideMargin(buttonsView: YFPopupButtonsView) -> CGFloat
-- optional func spaceBetweenRows(buttonsView: YFPopupButtonsView) -> CGFloat
-- optional func buttonsViewWillDisappear(buttonsView: YFPopupButtonsView)
-- optional func buttonsViewWillAppear(buttonsView: YFPopupButtonsView)
-
+- Customize the actions triggered by clicking a certain button.
+```swift
+func buttonsView(buttonsView: YFPopupButtonsView, didTapItemAtIndex index: Int)
+```
+- Define the space left between the left-most button/right-most button and the view.
+```swift
+func sideMargin(buttonsView: YFPopupButtonsView) -> CGFloat
+```
+- Define the sapce between two rows of the buttons
+```swift
+func spaceBetweenRows(buttonsView: YFPopupButtonsView) -> CGFloat
+```
+- Customize the actions triggered before the display of the buttons.
+```swift
+func buttonsViewWillAppear(buttonsView: YFPopupButtonsView)
+```
+- Customize the actions triggered after the buttons being dismissed.
+```swift
+func buttonsViewWillDisappear(buttonsView: YFPopupButtonsView)
+```
 ## Author
 
 pushian, l@fooyo.sg
