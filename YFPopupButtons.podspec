@@ -30,7 +30,7 @@ DESC
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'YFPopupButtons/Classes/**/*'
+  s.source_files = 'YFPopupButtons/Classes/*'
   
   # s.resource_bundles = {
   #   'YFPopupButtons' => ['YFPopupButtons/Assets/*.png']
