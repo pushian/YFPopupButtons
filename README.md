@@ -30,6 +30,7 @@ pod "YFPopupButtons"
 ###Core Functions
 - show()
 - dismiss()
+
 ###Delegate Functions
 - func numOfItems(buttonsView: YFPopupButtonsView) -> Int
 - func maxNumberOfItemsInRow(buttonsView: YFPopupButtonsView) -> Int
