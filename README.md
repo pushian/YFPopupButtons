@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/YFPopupButtons.svg?style=flat)](http://cocoapods.org/pods/YFPopupButtons)
 [![Platform](https://img.shields.io/cocoapods/p/YFPopupButtons.svg?style=flat)](http://cocoapods.org/pods/YFPopupButtons)
 
+![Demo Gif](Screenshot/demo.gif)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.

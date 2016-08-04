@@ -25,7 +25,7 @@ DESC
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'pushian' => 'l@fooyo.sg' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/YFPopupButtons.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/pushian/YFPopupButtons.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
