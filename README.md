@@ -46,7 +46,7 @@ func numOfItems(buttonsView: YFPopupButtonsView) -> Int
 ```swift
 func maxNumberOfItemsInRow(buttonsView: YFPopupButtonsView) -> Int
 ```
-- Define the size of all the buttons.
+- Define the size for all the buttons.
 ```swift
 func itemSize(buttonsView: YFPopupButtonsView) -> CGSize
 ```
@@ -54,14 +54,14 @@ func itemSize(buttonsView: YFPopupButtonsView) -> CGSize
 ```swift
 func buttonsView(buttonsView: YFPopupButtonsView, itemForIndex index: Int) -> YFPopupbotton
 ```
-####Example of Defining Round Buttons with Image and Title
+>Example of Defining Round Buttons with Image and Title
 ```swift
 func buttonsView(buttonsView: YFPopupButtonsView, itemForIndex index: Int) -> YFPopupbotton {
-let button = YFPopupbotton(contentImage: UIImage(named: "fbIcon")!, title: "Title")
-button.contentImageView.layer.cornerRadius = 30
-button.contentImageView.backgroundColor = .whiteColor()
-button.contentImageView.contentMode = .ScaleAspectFill
-return button
+    let button = YFPopupbotton(contentImage: UIImage(named: "fbIcon")!, title: "Title")
+    button.contentImageView.layer.cornerRadius = 30
+    button.contentImageView.backgroundColor = .whiteColor()
+    button.contentImageView.contentMode = .ScaleAspectFill
+    return button
 }
 ```
 - func buttonsView(buttonsView: YFPopupButtonsView, didTapItemAtIndex index: Int)
