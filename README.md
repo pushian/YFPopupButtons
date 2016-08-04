@@ -22,7 +22,7 @@ pod "YFPopupButtons"
 
 ##How To Use
 
-##Initialization
+###Initialization
 ```swift
 var testView = YFPopupButtonsView()
 testView.delegate = self
