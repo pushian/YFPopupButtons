@@ -22,14 +22,14 @@ pod "YFPopupButtons"
 
 ##How To Use
 
-- create a UIView with the subclass YFPopupButtonsView
-- set the delegate
-- call the functions to show or dismiss the buttons
-
-##Features List
+##Initialization
+```swift
+var testView = YFPopupButtonsView()
+testView.delegate = self
+```
 ###Core Functions
-- show()
-- dismiss()
+- `testView.show()`
+- `testView.dismiss()`
 
 ###Delegate Functions
 - func numOfItems(buttonsView: YFPopupButtonsView) -> Int
