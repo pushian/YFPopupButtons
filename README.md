@@ -11,8 +11,6 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
-
 ## Installation
 
 YFPopupButtons is available through [CocoaPods](http://cocoapods.org). To install
@@ -21,6 +19,23 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod "YFPopupButtons"
 ```
+
+##How to use
+
+- create a UIView with the subclass YFPopupButtonsView
+- set the delegate
+
+##Delegate functions
+
+- func numOfItems(buttonsView: YFPopupButtonsView) -> Int
+- func maxNumberOfItemsInRow(buttonsView: YFPopupButtonsView) -> Int
+- func itemSize(buttonsView: YFPopupButtonsView) -> CGSize
+- func buttonsView(buttonsView: YFPopupButtonsView, itemForIndex index: Int) -> YFPopupbotton
+- func buttonsView(buttonsView: YFPopupButtonsView, didTapItemAtIndex index: Int)
+- optional func sideMargin(buttonsView: YFPopupButtonsView) -> CGFloat
+- optional func spaceBetweenRows(buttonsView: YFPopupButtonsView) -> CGFloat
+- optional func buttonsViewWillDisappear(buttonsView: YFPopupButtonsView)
+- optional func buttonsViewWillAppear(buttonsView: YFPopupButtonsView)
 
 ## Author
 
