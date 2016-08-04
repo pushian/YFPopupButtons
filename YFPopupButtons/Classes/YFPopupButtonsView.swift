@@ -20,6 +20,7 @@ public class YFPopupButtonsView: UIView {
     //MARK: Public Functions
     required override public init(frame: CGRect) {
         super.init(frame: frame)
+        cancelButton.image = loadBundleImage("YFPopupButtonsCross")
         clipsToBounds = true
         userInteractionEnabled = false
         let gesture = UITapGestureRecognizer(target: self, action: #selector(dismiss))
@@ -84,7 +85,7 @@ public class YFPopupButtonsView: UIView {
         t.contentMode = .ScaleAspectFill
         t.backgroundColor = .clearColor()
         t.userInteractionEnabled = true
-        t.image = UIImage(named: "YFPopupButtonsCross")
+//        t.image = UIImage(named: "YFPopupButtonsCross")
         return t
     }()
     var totalRowNum: Int {
@@ -252,4 +253,15 @@ public class YFPopupButtonsView: UIView {
         }
     }
     
+}
+
+extension YFPopupButtonsView {
+    func loadBundleImage(name: String) -> UIImage? {
+        let podBundle = NSBundle(forClass: YFPopupButtonsView.self)
+        if let url = podBundle.URLForResource("YFPopupButtons", withExtension: "bundle") {
+            let bundle = NSBundle(URL: url)
+            return UIImage(named: name, inBundle: bundle, compatibleWithTraitCollection: nil)
+        }
+        return nil
+    }
 }
