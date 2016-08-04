@@ -28,8 +28,10 @@ var testView = YFPopupButtonsView()
 testView.delegate = self
 ```
 ###Core Functions
-- `testView.show()`
-- `testView.dismiss()`
+- Display the button view and pop up the buttons.
+    `testView.show()`
+- Dismiss the button view and the buttons. Normally, the user does not have to call this function in their own code because there is alreay built in dismiss actions in the view.
+`testView.dismiss()`
 
 ###Delegate Functions
 - func numOfItems(buttonsView: YFPopupButtonsView) -> Int
