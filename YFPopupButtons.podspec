@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YFPopupButtons'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A subclass of UIView which is capable of popping up buttons from the bottom of the view.'
 
 # This description is used to generate tags and improve search results.
@@ -32,9 +32,9 @@ DESC
 
   s.source_files = 'YFPopupButtons/Classes/*'
   
-  # s.resource_bundles = {
-  #   'YFPopupButtons' => ['YFPopupButtons/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'YFPopupButtons' => ['YFPopupButtons/Assets/*.png']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

@@ -44,6 +44,9 @@
 		741D189628A0C0C884067F088042FA5D /* Pods-YFPopupButtons_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-YFPopupButtons_Tests.modulemap"; sourceTree = "<group>"; };
 		7BC02795F2706730433EC5C3EB7B4234 /* Pods-YFPopupButtons_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YFPopupButtons_Tests-dummy.m"; sourceTree = "<group>"; };
 		7F54127385ADCD99AD5D93CFB7B87CE2 /* YFPopupBottonsViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = YFPopupBottonsViewDelegate.swift; sourceTree = "<group>"; };
+		855263831D53114E00D9359B /* YFPopupButtonsCross@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "YFPopupButtonsCross@3x.png"; sourceTree = "<group>"; };
+		855263841D53114E00D9359B /* YFPopupButtonsCross@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "YFPopupButtonsCross@2x.png"; sourceTree = "<group>"; };
+		855263851D53114E00D9359B /* YFPopupButtonsCross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YFPopupButtonsCross.png; sourceTree = "<group>"; };
 		8C6AE3E44E4AF1E2E161CB5BD2A33056 /* Pods-YFPopupButtons_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YFPopupButtons_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95E1D7DAA16604A9C9CAC69BFED6477A /* Pods-YFPopupButtons_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YFPopupButtons_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -125,6 +128,7 @@
 		69C64270B90D347A214C50BDEE8AD93B /* YFPopupButtons */ = {
 			isa = PBXGroup;
 			children = (
+				855263821D5310BD00D9359B /* Assets */,
 				79FDCA733F347506EB86E9FF2073576A /* Classes */,
 			);
 			path = YFPopupButtons;
@@ -167,6 +171,16 @@
 				AF66DFD7232505E5028EA05452E7DB45 /* YFPopupButtons.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		855263821D5310BD00D9359B /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				855263831D53114E00D9359B /* YFPopupButtonsCross@3x.png */,
+				855263841D53114E00D9359B /* YFPopupButtonsCross@2x.png */,
+				855263851D53114E00D9359B /* YFPopupButtonsCross.png */,
+			);
+			name = Assets;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {

@@ -84,7 +84,7 @@ public class YFPopupButtonsView: UIView {
         t.contentMode = .ScaleAspectFill
         t.backgroundColor = .clearColor()
         t.userInteractionEnabled = true
-        t.image = UIImage(named: "cross")
+        t.image = UIImage(named: "YFPopupButtonsCross")
         return t
     }()
     var totalRowNum: Int {
