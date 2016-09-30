@@ -1,6 +1,6 @@
 {
   "name": "YFPopupButtons",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "summary": "A subclass of UIView which is capable of popping up buttons from the bottom of the view.",
   "description": "A subclass of UIView which is capable of popping up buttons from the bottom of the view. The users would be able to customize the buttons.",
   "homepage": "https://github.com/pushian/YFPopupButtons",
@@ -12,11 +12,16 @@
     "pushian": "l@fooyo.sg"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/YFPopupButtons.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/pushian/YFPopupButtons.git",
+    "tag": "0.1.3"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "YFPopupButtons/Classes/**/*"
+  "source_files": "YFPopupButtons/Classes/*",
+  "resource_bundles": {
+    "YFPopupButtons": [
+      "YFPopupButtons/Assets/*.png"
+    ]
+  }
 }

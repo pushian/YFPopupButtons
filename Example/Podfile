@@ -2,10 +2,4 @@ use_frameworks!
 
 target 'YFPopupButtons_Example' do
   pod 'YFPopupButtons', :path => '../'
-
-  target 'YFPopupButtons_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end

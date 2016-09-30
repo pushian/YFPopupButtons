@@ -11,7 +11,7 @@ import UIKit
 public class YFPopupbotton: UIView {
     public var contentImageView: UIImageView! = {
         let t = UIImageView()
-        t.backgroundColor = .clearColor()
+        t.backgroundColor = .clear
         t.clipsToBounds = true
         return t
     }()
@@ -19,13 +19,13 @@ public class YFPopupbotton: UIView {
     public var contentTitle: UILabel! = {
         let t = UILabel()
         t.numberOfLines = 0
-        t.textAlignment = .Center
-        t.textColor = .whiteColor()
+        t.textAlignment = .center
+        t.textColor = .white
         return t
     }()
     
     public init(contentImage: UIImage, title: String) {
-        super.init(frame: CGRectZero)
+        super.init(frame: CGRect(x: 0, y: 0, width: 0, height: 0))
         addSubview(contentImageView)
         addSubview(contentTitle)
         self.contentImageView.image = contentImage
@@ -40,17 +40,17 @@ public class YFPopupbotton: UIView {
     
     func setConstraints() {
         self.contentImageView.translatesAutoresizingMaskIntoConstraints = false
-        let topConstraint = NSLayoutConstraint(item: self.contentImageView, attribute: .Top, relatedBy: .Equal, toItem: self, attribute: .Top, multiplier: 1, constant: 0)
-        let leftConstraint = NSLayoutConstraint(item: self.contentImageView, attribute: .Leading, relatedBy: .Equal, toItem: self, attribute: .Leading, multiplier: 1, constant: 0)
-        let rightConstraint = NSLayoutConstraint(item: self.contentImageView, attribute: .Trailing, relatedBy: .Equal, toItem: self, attribute: .Trailing, multiplier: 1, constant: 0)
-        let heightConstraint = NSLayoutConstraint(item: self.contentImageView, attribute: .Height, relatedBy: .Equal, toItem: self.contentImageView, attribute: .Width, multiplier: 1, constant: 0)
+        let topConstraint = NSLayoutConstraint(item: self.contentImageView, attribute: .top, relatedBy: .equal, toItem: self, attribute: .top, multiplier: 1, constant: 0)
+        let leftConstraint = NSLayoutConstraint(item: self.contentImageView, attribute: .leading, relatedBy: .equal, toItem: self, attribute: .leading, multiplier: 1, constant: 0)
+        let rightConstraint = NSLayoutConstraint(item: self.contentImageView, attribute: .trailing, relatedBy: .equal, toItem: self, attribute: .trailing, multiplier: 1, constant: 0)
+        let heightConstraint = NSLayoutConstraint(item: self.contentImageView, attribute: .height, relatedBy: .equal, toItem: self.contentImageView, attribute: .width, multiplier: 1, constant: 0)
         self.addConstraints([topConstraint, heightConstraint, leftConstraint, rightConstraint])
         
         self.contentTitle.translatesAutoresizingMaskIntoConstraints = false
-        let topConstraintTwo = NSLayoutConstraint(item: self.contentTitle, attribute: .Top, relatedBy: .Equal, toItem: self.contentImageView, attribute: .Bottom, multiplier: 1, constant: 0)
-        let bottomConstraintTwo = NSLayoutConstraint(item: self.contentTitle, attribute: .Bottom, relatedBy: .Equal, toItem: self, attribute: .Bottom, multiplier: 1, constant: 0)
-        let leftConstraintTwo = NSLayoutConstraint(item: self.contentTitle, attribute: .Leading, relatedBy: .Equal, toItem: self, attribute: .Leading, multiplier: 1, constant: 0)
-        let rightConstraintTwo = NSLayoutConstraint(item: self.contentTitle, attribute: .Trailing, relatedBy: .Equal, toItem: self, attribute: .Trailing, multiplier: 1, constant: 0)
+        let topConstraintTwo = NSLayoutConstraint(item: self.contentTitle, attribute: .top, relatedBy: .equal, toItem: self.contentImageView, attribute: .bottom, multiplier: 1, constant: 0)
+        let bottomConstraintTwo = NSLayoutConstraint(item: self.contentTitle, attribute: .bottom, relatedBy: .equal, toItem: self, attribute: .bottom, multiplier: 1, constant: 0)
+        let leftConstraintTwo = NSLayoutConstraint(item: self.contentTitle, attribute: .leading, relatedBy: .equal, toItem: self, attribute: .leading, multiplier: 1, constant: 0)
+        let rightConstraintTwo = NSLayoutConstraint(item: self.contentTitle, attribute: .trailing, relatedBy: .equal, toItem: self, attribute: .trailing, multiplier: 1, constant: 0)
         self.addConstraints([topConstraintTwo, bottomConstraintTwo, leftConstraintTwo, rightConstraintTwo])
     }
 }

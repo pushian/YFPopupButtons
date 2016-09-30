@@ -26,10 +26,10 @@ class MainTabBarViewController: UITabBarController {
     
     func prepareTabs() {
         let nameArr = ["Tab", "Tab", "Tab", "Tab", "Tab"]
-        tabBar.tintColor = UIColor.redColor()
+        tabBar.tintColor = UIColor.red
         var controllers = [UIViewController]()
         for index in 0..<nameArr.count {
-            let rootVc = viewControllerAtIndex(index)
+            let rootVc = viewControllerAtIndex(index: index)
             let nav = UINavigationController(rootViewController: rootVc)
             let tabItem = UITabBarItem(title: nameArr[index], image: nil, selectedImage: nil)
             nav.tabBarItem = tabItem

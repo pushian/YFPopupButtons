@@ -7,18 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		08788F2A694E15175481A19F988759A9 /* YFPopupButtons-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CB619298FBC336EB0C077196F5A60E6 /* YFPopupButtons-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		18E8306342941BE60107C50D8AA7D9C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		2ABF910CE34C88857BB69CCC6E8BE0EC /* Pods-YFPopupButtons_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B870257FAD4D9D0FB3DE2335C06A03A0 /* Pods-YFPopupButtons_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		34D3BCFE0E11CFDEEB7710D8AEE12F60 /* YFPopupButtons-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5C9AB5C033399ECE3D86DF46A88434 /* YFPopupButtons-dummy.m */; };
+		08788F2A694E15175481A19F988759A9 /* YFPopupButtons-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 242A54174B70278EA2CFAEEF6D5C0B76 /* YFPopupButtons-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A55F6F2B7250418769E9DE472BD110D /* YFPopupButtonsCross.png in Resources */ = {isa = PBXBuildFile; fileRef = 24E9D2777512A4DF5C193FD5A6F1161D /* YFPopupButtonsCross.png */; };
+		2ABF910CE34C88857BB69CCC6E8BE0EC /* Pods-YFPopupButtons_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FD04FEE18BC338C395CA027DD6AF84F /* Pods-YFPopupButtons_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34D3BCFE0E11CFDEEB7710D8AEE12F60 /* YFPopupButtons-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A51C8D684D9EE92C73947C64A6D193B /* YFPopupButtons-dummy.m */; };
 		395B2C4374E7F229362F24CCA713D7AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		461D9979475C97E9AD03620D84FFEED7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		6F52A371E68E03304BBD7B4BDAF903BE /* Pods-YFPopupButtons_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27118338AEE6E49326FAAF6C917FB1D5 /* Pods-YFPopupButtons_Example-dummy.m */; };
-		769773D38E95F66B6C92050AFE5F6B35 /* YFPopupBottonsViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F54127385ADCD99AD5D93CFB7B87CE2 /* YFPopupBottonsViewDelegate.swift */; };
-		9EB79ECEA27B0C2ABB525BF160C21C69 /* YFPopupButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA54367DB89A11034B84877A42296C23 /* YFPopupButtonsView.swift */; };
-		AF9508FEBCB240394C00DB775627C893 /* Pods-YFPopupButtons_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC02795F2706730433EC5C3EB7B4234 /* Pods-YFPopupButtons_Tests-dummy.m */; };
-		C3372B172F1DE629A079FE609B95C346 /* YFPopupbottonsComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E3E74F01479FFA8259C68FF7E8C920 /* YFPopupbottonsComponents.swift */; };
-		D203FF1723C385C9BD2701611539912B /* Pods-YFPopupButtons_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E3E864499852439539FBCA922F44176 /* Pods-YFPopupButtons_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F52A371E68E03304BBD7B4BDAF903BE /* Pods-YFPopupButtons_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A08C5E300A27132B74C56CBEB7C51E /* Pods-YFPopupButtons_Example-dummy.m */; };
+		769773D38E95F66B6C92050AFE5F6B35 /* YFPopupBottonsViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA633F5752A79932C80562642C4D2BE9 /* YFPopupBottonsViewDelegate.swift */; };
+		76E2FA71721243C77A991044D1096819 /* YFPopupButtonsCross@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E9F684EB37D28EA42418A47A1288CE82 /* YFPopupButtonsCross@2x.png */; };
+		8C68351998D4D4A5F5E65D0D83003F9D /* YFPopupButtonsCross@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D66A817ECE387ED29664816C7AC75F /* YFPopupButtonsCross@3x.png */; };
+		9EB79ECEA27B0C2ABB525BF160C21C69 /* YFPopupButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FE250375BF0CF49934DA5D3485C063 /* YFPopupButtonsView.swift */; };
+		C3372B172F1DE629A079FE609B95C346 /* YFPopupbottonsComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23105E5CF814EDE3156419843B785A88 /* YFPopupbottonsComponents.swift */; };
+		FF25BC86F5CEE4143072CE8F31E2F575 /* YFPopupButtons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AC9333CE4C187C5A7085B158777AF0FD /* YFPopupButtons.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,46 +30,54 @@
 			remoteGlobalIDString = 62C459E4F67F5CAC3801B808829754A8;
 			remoteInfo = YFPopupButtons;
 		};
+		5F70B4A5E0178DA1DCD7A5ED21831818 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88B7798F895F7D8FB007717440886A91;
+			remoteInfo = "YFPopupButtons-YFPopupButtons";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0E3E864499852439539FBCA922F44176 /* Pods-YFPopupButtons_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YFPopupButtons_Tests-umbrella.h"; sourceTree = "<group>"; };
-		1F6D46E4FCC5B900370D25FC6A897251 /* Pods-YFPopupButtons_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YFPopupButtons_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		244AD7D973F1571E7EBC41FF600A72F9 /* Pods-YFPopupButtons_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YFPopupButtons_Example.release.xcconfig"; sourceTree = "<group>"; };
-		27118338AEE6E49326FAAF6C917FB1D5 /* Pods-YFPopupButtons_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YFPopupButtons_Example-dummy.m"; sourceTree = "<group>"; };
-		28621A3DF6E3D6F49E9D682C0CF8F2DF /* Pods-YFPopupButtons_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-YFPopupButtons_Example.modulemap"; sourceTree = "<group>"; };
-		43A7BC8ECB4D53089F75949F9AEC91E3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		51704F5C31C1209E9350AA843F9FDE26 /* YFPopupButtons.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YFPopupButtons.xcconfig; sourceTree = "<group>"; };
-		52B4DB0C122C24B16A1E9E44E0CB2BE3 /* Pods-YFPopupButtons_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YFPopupButtons_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		6CB619298FBC336EB0C077196F5A60E6 /* YFPopupButtons-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YFPopupButtons-umbrella.h"; sourceTree = "<group>"; };
-		741D189628A0C0C884067F088042FA5D /* Pods-YFPopupButtons_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-YFPopupButtons_Tests.modulemap"; sourceTree = "<group>"; };
-		7BC02795F2706730433EC5C3EB7B4234 /* Pods-YFPopupButtons_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YFPopupButtons_Tests-dummy.m"; sourceTree = "<group>"; };
-		7F54127385ADCD99AD5D93CFB7B87CE2 /* YFPopupBottonsViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = YFPopupBottonsViewDelegate.swift; sourceTree = "<group>"; };
-		8C6AE3E44E4AF1E2E161CB5BD2A33056 /* Pods-YFPopupButtons_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YFPopupButtons_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		038F63138B813406955D51EB3BB850FA /* ResourceBundle-YFPopupButtons-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-YFPopupButtons-Info.plist"; sourceTree = "<group>"; };
+		03B21476EB0949F01E26F3755EAF0241 /* YFPopupButtons.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YFPopupButtons.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0556652A398032D64BBDC09EA937F986 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05FE250375BF0CF49934DA5D3485C063 /* YFPopupButtonsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = YFPopupButtonsView.swift; sourceTree = "<group>"; };
+		0683795D1DE28E6A8B6F8528A9DA074E /* YFPopupButtons-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YFPopupButtons-prefix.pch"; sourceTree = "<group>"; };
+		1A51C8D684D9EE92C73947C64A6D193B /* YFPopupButtons-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YFPopupButtons-dummy.m"; sourceTree = "<group>"; };
+		23105E5CF814EDE3156419843B785A88 /* YFPopupbottonsComponents.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = YFPopupbottonsComponents.swift; sourceTree = "<group>"; };
+		242A54174B70278EA2CFAEEF6D5C0B76 /* YFPopupButtons-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YFPopupButtons-umbrella.h"; sourceTree = "<group>"; };
+		24E9D2777512A4DF5C193FD5A6F1161D /* YFPopupButtonsCross.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = YFPopupButtonsCross.png; sourceTree = "<group>"; };
+		3E144E3CE5A304C6B62B285EC7B426D3 /* Pods-YFPopupButtons_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YFPopupButtons_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		49681DC714DD4634895904CF89BFC365 /* Pods-YFPopupButtons_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YFPopupButtons_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4D4E077980113BCCC57C38A47AFCEBB2 /* Pods-YFPopupButtons_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YFPopupButtons_Example-resources.sh"; sourceTree = "<group>"; };
+		6ACC51100D8251693B7B9C523CBF60D0 /* YFPopupButtons.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = YFPopupButtons.modulemap; sourceTree = "<group>"; };
+		7FD04FEE18BC338C395CA027DD6AF84F /* Pods-YFPopupButtons_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YFPopupButtons_Example-umbrella.h"; sourceTree = "<group>"; };
+		84A08C5E300A27132B74C56CBEB7C51E /* Pods-YFPopupButtons_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YFPopupButtons_Example-dummy.m"; sourceTree = "<group>"; };
+		8EA647322BC3D74713637AF3DE5C6027 /* Pods-YFPopupButtons_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YFPopupButtons_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		95E1D7DAA16604A9C9CAC69BFED6477A /* Pods-YFPopupButtons_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YFPopupButtons_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		98B0389C3A695C69974D9D20A2D62DE3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9BFB13888FAEA5308DB619ADEB4B4FA9 /* Pods-YFPopupButtons_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YFPopupButtons_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		A14B4692867B02E83F5364BCD1CC0E28 /* Pods-YFPopupButtons_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YFPopupButtons_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		A44C0A7E773903611C19737A1326E1C6 /* YFPopupButtons-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YFPopupButtons-prefix.pch"; sourceTree = "<group>"; };
-		ACCD9CF8F65A1B80364F55157CBEC80D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AE5F9AD765A907FF299A339A811BD65B /* YFPopupButtons.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = YFPopupButtons.modulemap; sourceTree = "<group>"; };
-		AF66DFD7232505E5028EA05452E7DB45 /* YFPopupButtons.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YFPopupButtons.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B4922B133F3E1EA5CC162EA3A5467FE1 /* Pods_YFPopupButtons_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YFPopupButtons_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B870257FAD4D9D0FB3DE2335C06A03A0 /* Pods-YFPopupButtons_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YFPopupButtons_Example-umbrella.h"; sourceTree = "<group>"; };
-		C00AD9CF3F91F3F8F4840CF00BB8C4F7 /* Pods-YFPopupButtons_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YFPopupButtons_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C464403C4BB650E80E4E7462A596D5D0 /* Pods-YFPopupButtons_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YFPopupButtons_Example-resources.sh"; sourceTree = "<group>"; };
-		CA25A8B814B7492AD8EB4F5CDDC6F334 /* Pods-YFPopupButtons_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YFPopupButtons_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		CA54367DB89A11034B84877A42296C23 /* YFPopupButtonsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = YFPopupButtonsView.swift; sourceTree = "<group>"; };
+		A1D66A817ECE387ED29664816C7AC75F /* YFPopupButtonsCross@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "YFPopupButtonsCross@3x.png"; sourceTree = "<group>"; };
+		A22BB52244989207FFF4CF60B3DFDD03 /* Pods-YFPopupButtons_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YFPopupButtons_Example-frameworks.sh"; sourceTree = "<group>"; };
+		A6538D00A8CB45DB7ADF5170C234B973 /* Pods-YFPopupButtons_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-YFPopupButtons_Example.modulemap"; sourceTree = "<group>"; };
+		A7703B6807357E3985B0E044B95FAD45 /* Pods-YFPopupButtons_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YFPopupButtons_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AC9333CE4C187C5A7085B158777AF0FD /* YFPopupButtons.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YFPopupButtons.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		B706106C1390D9E0DFABB220EBBACB7B /* Pods_YFPopupButtons_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YFPopupButtons_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B82C74A5559D90D0D9EA77169B818922 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA633F5752A79932C80562642C4D2BE9 /* YFPopupBottonsViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = YFPopupBottonsViewDelegate.swift; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D60584D9A6416B28D2BAAB3FEDCEDD50 /* Pods-YFPopupButtons_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YFPopupButtons_Tests-resources.sh"; sourceTree = "<group>"; };
-		E09A80A6DA4A74F356B343EC8D7317D1 /* Pods-YFPopupButtons_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YFPopupButtons_Example-frameworks.sh"; sourceTree = "<group>"; };
-		E7E3E74F01479FFA8259C68FF7E8C920 /* YFPopupbottonsComponents.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = YFPopupbottonsComponents.swift; sourceTree = "<group>"; };
-		FA070EEF0DEF687821494797DD9DDD58 /* Pods_YFPopupButtons_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YFPopupButtons_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF5C9AB5C033399ECE3D86DF46A88434 /* YFPopupButtons-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YFPopupButtons-dummy.m"; sourceTree = "<group>"; };
+		E9F684EB37D28EA42418A47A1288CE82 /* YFPopupButtonsCross@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "YFPopupButtonsCross@2x.png"; sourceTree = "<group>"; };
+		F7BB1F72A7039692E3E595B492DAD756 /* YFPopupButtons.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YFPopupButtons.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		002E2DC920F7468ABD414DB1865C06D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		39CA86D79AB2FB3432AD2ABCABDFE0F6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -85,17 +94,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D344996C13109F0108DC4D5E9E2F2ED3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				18E8306342941BE60107C50D8AA7D9C5 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24086AD5F8FF30435043FF3277CBF58C /* Pods-YFPopupButtons_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B82C74A5559D90D0D9EA77169B818922 /* Info.plist */,
+				A6538D00A8CB45DB7ADF5170C234B973 /* Pods-YFPopupButtons_Example.modulemap */,
+				A7703B6807357E3985B0E044B95FAD45 /* Pods-YFPopupButtons_Example-acknowledgements.markdown */,
+				8EA647322BC3D74713637AF3DE5C6027 /* Pods-YFPopupButtons_Example-acknowledgements.plist */,
+				84A08C5E300A27132B74C56CBEB7C51E /* Pods-YFPopupButtons_Example-dummy.m */,
+				A22BB52244989207FFF4CF60B3DFDD03 /* Pods-YFPopupButtons_Example-frameworks.sh */,
+				4D4E077980113BCCC57C38A47AFCEBB2 /* Pods-YFPopupButtons_Example-resources.sh */,
+				7FD04FEE18BC338C395CA027DD6AF84F /* Pods-YFPopupButtons_Example-umbrella.h */,
+				3E144E3CE5A304C6B62B285EC7B426D3 /* Pods-YFPopupButtons_Example.debug.xcconfig */,
+				49681DC714DD4634895904CF89BFC365 /* Pods-YFPopupButtons_Example.release.xcconfig */,
+			);
+			name = "Pods-YFPopupButtons_Example";
+			path = "Target Support Files/Pods-YFPopupButtons_Example";
+			sourceTree = "<group>";
+		};
 		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -104,69 +123,66 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		40E8E2481F6F27324207F56CD9837935 /* Pods-YFPopupButtons_Example */ = {
+		50509BF44753D1CA3F11FE505D30040A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ACCD9CF8F65A1B80364F55157CBEC80D /* Info.plist */,
-				28621A3DF6E3D6F49E9D682C0CF8F2DF /* Pods-YFPopupButtons_Example.modulemap */,
-				8C6AE3E44E4AF1E2E161CB5BD2A33056 /* Pods-YFPopupButtons_Example-acknowledgements.markdown */,
-				A14B4692867B02E83F5364BCD1CC0E28 /* Pods-YFPopupButtons_Example-acknowledgements.plist */,
-				27118338AEE6E49326FAAF6C917FB1D5 /* Pods-YFPopupButtons_Example-dummy.m */,
-				E09A80A6DA4A74F356B343EC8D7317D1 /* Pods-YFPopupButtons_Example-frameworks.sh */,
-				C464403C4BB650E80E4E7462A596D5D0 /* Pods-YFPopupButtons_Example-resources.sh */,
-				B870257FAD4D9D0FB3DE2335C06A03A0 /* Pods-YFPopupButtons_Example-umbrella.h */,
-				1F6D46E4FCC5B900370D25FC6A897251 /* Pods-YFPopupButtons_Example.debug.xcconfig */,
-				244AD7D973F1571E7EBC41FF600A72F9 /* Pods-YFPopupButtons_Example.release.xcconfig */,
+				B706106C1390D9E0DFABB220EBBACB7B /* Pods_YFPopupButtons_Example.framework */,
+				AC9333CE4C187C5A7085B158777AF0FD /* YFPopupButtons.bundle */,
+				03B21476EB0949F01E26F3755EAF0241 /* YFPopupButtons.framework */,
 			);
-			name = "Pods-YFPopupButtons_Example";
-			path = "Target Support Files/Pods-YFPopupButtons_Example";
+			name = Products;
 			sourceTree = "<group>";
 		};
-		69C64270B90D347A214C50BDEE8AD93B /* YFPopupButtons */ = {
+		6A8AE226FC3EF772748B9D4101443A3C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				79FDCA733F347506EB86E9FF2073576A /* Classes */,
+				C7F47B1AE0C637B276770489F509C01B /* YFPopupButtons */,
 			);
-			path = YFPopupButtons;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		6F93F9870A4EE54A711CC972E6DB1C75 /* Development Pods */ = {
+		6DA2F93CA708A2E1731F29BC6363C257 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D9E915E86427DD311779CEC29D822F51 /* YFPopupButtons */,
+				0556652A398032D64BBDC09EA937F986 /* Info.plist */,
+				038F63138B813406955D51EB3BB850FA /* ResourceBundle-YFPopupButtons-Info.plist */,
+				6ACC51100D8251693B7B9C523CBF60D0 /* YFPopupButtons.modulemap */,
+				F7BB1F72A7039692E3E595B492DAD756 /* YFPopupButtons.xcconfig */,
+				1A51C8D684D9EE92C73947C64A6D193B /* YFPopupButtons-dummy.m */,
+				0683795D1DE28E6A8B6F8528A9DA074E /* YFPopupButtons-prefix.pch */,
+				242A54174B70278EA2CFAEEF6D5C0B76 /* YFPopupButtons-umbrella.h */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		79FDCA733F347506EB86E9FF2073576A /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				E7E3E74F01479FFA8259C68FF7E8C920 /* YFPopupbottonsComponents.swift */,
-				7F54127385ADCD99AD5D93CFB7B87CE2 /* YFPopupBottonsViewDelegate.swift */,
-				CA54367DB89A11034B84877A42296C23 /* YFPopupButtonsView.swift */,
-			);
-			path = Classes;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YFPopupButtons";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				6F93F9870A4EE54A711CC972E6DB1C75 /* Development Pods */,
+				C5BD0931FE7C77FFB48A36065BB780D3 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				848877757778DA54C51912FA58F41C64 /* Products */,
-				F25B38625E420C8277F0DC55285BC510 /* Targets Support Files */,
+				50509BF44753D1CA3F11FE505D30040A /* Products */,
+				9CFFCDE6AC80CF6AFB53A07102A57922 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		848877757778DA54C51912FA58F41C64 /* Products */ = {
+		9CFFCDE6AC80CF6AFB53A07102A57922 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FA070EEF0DEF687821494797DD9DDD58 /* Pods_YFPopupButtons_Example.framework */,
-				B4922B133F3E1EA5CC162EA3A5467FE1 /* Pods_YFPopupButtons_Tests.framework */,
-				AF66DFD7232505E5028EA05452E7DB45 /* YFPopupButtons.framework */,
+				24086AD5F8FF30435043FF3277CBF58C /* Pods-YFPopupButtons_Example */,
 			);
-			name = Products;
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B2B048294BC0BBCC0E526C1A597599F9 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				24E9D2777512A4DF5C193FD5A6F1161D /* YFPopupButtonsCross.png */,
+				E9F684EB37D28EA42418A47A1288CE82 /* YFPopupButtonsCross@2x.png */,
+				A1D66A817ECE387ED29664816C7AC75F /* YFPopupButtonsCross@3x.png */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -177,55 +193,49 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C3014CA10D5B71115501693EB72AF5C0 /* Pods-YFPopupButtons_Tests */ = {
+		C213219955107B3C66E6A7F35FCE90C3 /* YFPopupButtons */ = {
 			isa = PBXGroup;
 			children = (
-				98B0389C3A695C69974D9D20A2D62DE3 /* Info.plist */,
-				741D189628A0C0C884067F088042FA5D /* Pods-YFPopupButtons_Tests.modulemap */,
-				C00AD9CF3F91F3F8F4840CF00BB8C4F7 /* Pods-YFPopupButtons_Tests-acknowledgements.markdown */,
-				95E1D7DAA16604A9C9CAC69BFED6477A /* Pods-YFPopupButtons_Tests-acknowledgements.plist */,
-				7BC02795F2706730433EC5C3EB7B4234 /* Pods-YFPopupButtons_Tests-dummy.m */,
-				9BFB13888FAEA5308DB619ADEB4B4FA9 /* Pods-YFPopupButtons_Tests-frameworks.sh */,
-				D60584D9A6416B28D2BAAB3FEDCEDD50 /* Pods-YFPopupButtons_Tests-resources.sh */,
-				0E3E864499852439539FBCA922F44176 /* Pods-YFPopupButtons_Tests-umbrella.h */,
-				CA25A8B814B7492AD8EB4F5CDDC6F334 /* Pods-YFPopupButtons_Tests.debug.xcconfig */,
-				52B4DB0C122C24B16A1E9E44E0CB2BE3 /* Pods-YFPopupButtons_Tests.release.xcconfig */,
-			);
-			name = "Pods-YFPopupButtons_Tests";
-			path = "Target Support Files/Pods-YFPopupButtons_Tests";
-			sourceTree = "<group>";
-		};
-		CC931721E6ED8BFFA83B79859D3AE69C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				43A7BC8ECB4D53089F75949F9AEC91E3 /* Info.plist */,
-				AE5F9AD765A907FF299A339A811BD65B /* YFPopupButtons.modulemap */,
-				51704F5C31C1209E9350AA843F9FDE26 /* YFPopupButtons.xcconfig */,
-				FF5C9AB5C033399ECE3D86DF46A88434 /* YFPopupButtons-dummy.m */,
-				A44C0A7E773903611C19737A1326E1C6 /* YFPopupButtons-prefix.pch */,
-				6CB619298FBC336EB0C077196F5A60E6 /* YFPopupButtons-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/YFPopupButtons";
-			sourceTree = "<group>";
-		};
-		D9E915E86427DD311779CEC29D822F51 /* YFPopupButtons */ = {
-			isa = PBXGroup;
-			children = (
-				CC931721E6ED8BFFA83B79859D3AE69C /* Support Files */,
-				69C64270B90D347A214C50BDEE8AD93B /* YFPopupButtons */,
+				6A8AE226FC3EF772748B9D4101443A3C /* Resources */,
+				6DA2F93CA708A2E1731F29BC6363C257 /* Support Files */,
+				DB23276DF165BFEF6B62098C6E47F62D /* YFPopupButtons */,
 			);
 			name = YFPopupButtons;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		F25B38625E420C8277F0DC55285BC510 /* Targets Support Files */ = {
+		C5BD0931FE7C77FFB48A36065BB780D3 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				40E8E2481F6F27324207F56CD9837935 /* Pods-YFPopupButtons_Example */,
-				C3014CA10D5B71115501693EB72AF5C0 /* Pods-YFPopupButtons_Tests */,
+				C213219955107B3C66E6A7F35FCE90C3 /* YFPopupButtons */,
 			);
-			name = "Targets Support Files";
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C7F47B1AE0C637B276770489F509C01B /* YFPopupButtons */ = {
+			isa = PBXGroup;
+			children = (
+				B2B048294BC0BBCC0E526C1A597599F9 /* Assets */,
+			);
+			path = YFPopupButtons;
+			sourceTree = "<group>";
+		};
+		CB8030331305E76E3C68A8B315B084B1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				23105E5CF814EDE3156419843B785A88 /* YFPopupbottonsComponents.swift */,
+				BA633F5752A79932C80562642C4D2BE9 /* YFPopupBottonsViewDelegate.swift */,
+				05FE250375BF0CF49934DA5D3485C063 /* YFPopupButtonsView.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		DB23276DF165BFEF6B62098C6E47F62D /* YFPopupButtons */ = {
+			isa = PBXGroup;
+			children = (
+				CB8030331305E76E3C68A8B315B084B1 /* Classes */,
+			);
+			path = YFPopupButtons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,14 +257,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B448F323911927EAC659E60FF2802072 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D203FF1723C385C9BD2701611539912B /* Pods-YFPopupButtons_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -264,33 +266,35 @@
 			buildPhases = (
 				A90FED23CD16B16D148FC923E959AAE7 /* Sources */,
 				39CA86D79AB2FB3432AD2ABCABDFE0F6 /* Frameworks */,
+				83D8BEC9C2C5CFAC2AA535791F38E9FD /* Resources */,
 				A9B3FAC75623CBF487E3B76F51AC11D8 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				B8457D613FBF477938D4E86FC55620BA /* PBXTargetDependency */,
 			);
 			name = YFPopupButtons;
 			productName = YFPopupButtons;
-			productReference = AF66DFD7232505E5028EA05452E7DB45 /* YFPopupButtons.framework */;
+			productReference = 03B21476EB0949F01E26F3755EAF0241 /* YFPopupButtons.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		DBB82EBD15A8C6CD130F0C17D0B6A301 /* Pods-YFPopupButtons_Tests */ = {
+		88B7798F895F7D8FB007717440886A91 /* YFPopupButtons-YFPopupButtons */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 479DD3AC411144A6E5F3955FF37174FE /* Build configuration list for PBXNativeTarget "Pods-YFPopupButtons_Tests" */;
+			buildConfigurationList = 049B68C65EC00793BBD777ECDA0C6854 /* Build configuration list for PBXNativeTarget "YFPopupButtons-YFPopupButtons" */;
 			buildPhases = (
-				89BEDF1A986DCB369AD6F8BBEF8D0497 /* Sources */,
-				D344996C13109F0108DC4D5E9E2F2ED3 /* Frameworks */,
-				B448F323911927EAC659E60FF2802072 /* Headers */,
+				C51CE5FDE9C62F5DB55577DCA54FA981 /* Sources */,
+				002E2DC920F7468ABD414DB1865C06D8 /* Frameworks */,
+				4345473BD8E187CBB1CADBA1E660165D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-YFPopupButtons_Tests";
-			productName = "Pods-YFPopupButtons_Tests";
-			productReference = B4922B133F3E1EA5CC162EA3A5467FE1 /* Pods_YFPopupButtons_Tests.framework */;
-			productType = "com.apple.product-type.framework";
+			name = "YFPopupButtons-YFPopupButtons";
+			productName = "YFPopupButtons-YFPopupButtons";
+			productReference = AC9333CE4C187C5A7085B158777AF0FD /* YFPopupButtons.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 		FEAA048ECAF07A96768B6E2B05BB82AA /* Pods-YFPopupButtons_Example */ = {
 			isa = PBXNativeTarget;
@@ -307,7 +311,7 @@
 			);
 			name = "Pods-YFPopupButtons_Example";
 			productName = "Pods-YFPopupButtons_Example";
-			productReference = FA070EEF0DEF687821494797DD9DDD58 /* Pods_YFPopupButtons_Example.framework */;
+			productReference = B706106C1390D9E0DFABB220EBBACB7B /* Pods_YFPopupButtons_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -327,16 +331,37 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 848877757778DA54C51912FA58F41C64 /* Products */;
+			productRefGroup = 50509BF44753D1CA3F11FE505D30040A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				FEAA048ECAF07A96768B6E2B05BB82AA /* Pods-YFPopupButtons_Example */,
-				DBB82EBD15A8C6CD130F0C17D0B6A301 /* Pods-YFPopupButtons_Tests */,
 				62C459E4F67F5CAC3801B808829754A8 /* YFPopupButtons */,
+				88B7798F895F7D8FB007717440886A91 /* YFPopupButtons-YFPopupButtons */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4345473BD8E187CBB1CADBA1E660165D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A55F6F2B7250418769E9DE472BD110D /* YFPopupButtonsCross.png in Resources */,
+				76E2FA71721243C77A991044D1096819 /* YFPopupButtonsCross@2x.png in Resources */,
+				8C68351998D4D4A5F5E65D0D83003F9D /* YFPopupButtonsCross@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83D8BEC9C2C5CFAC2AA535791F38E9FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF25BC86F5CEE4143072CE8F31E2F575 /* YFPopupButtons.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7D8571C587F77A5C9515B037C8C45F8B /* Sources */ = {
@@ -344,14 +369,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F52A371E68E03304BBD7B4BDAF903BE /* Pods-YFPopupButtons_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		89BEDF1A986DCB369AD6F8BBEF8D0497 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AF9508FEBCB240394C00DB775627C893 /* Pods-YFPopupButtons_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,9 +383,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C51CE5FDE9C62F5DB55577DCA54FA981 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		B8457D613FBF477938D4E86FC55620BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "YFPopupButtons-YFPopupButtons";
+			target = 88B7798F895F7D8FB007717440886A91 /* YFPopupButtons-YFPopupButtons */;
+			targetProxy = 5F70B4A5E0178DA1DCD7A5ED21831818 /* PBXContainerItemProxy */;
+		};
 		F8D0ED07BA556B72A15FD370ABF7EB6A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = YFPopupButtons;
@@ -411,14 +441,49 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_VERSION = 3.0;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
+		2D3C3686C70D45D65D2C62A6FBAC2A32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7BB1F72A7039692E3E595B492DAD756 /* YFPopupButtons.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/YFPopupButtons";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/YFPopupButtons/ResourceBundle-YFPopupButtons-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = YFPopupButtons;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		32CFF7955CCAC0B67716C29675934DF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7BB1F72A7039692E3E595B492DAD756 /* YFPopupButtons.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/YFPopupButtons";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/YFPopupButtons/ResourceBundle-YFPopupButtons-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = YFPopupButtons;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		49A402493B8BACA94E12FF9D40DEE446 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F6D46E4FCC5B900370D25FC6A897251 /* Pods-YFPopupButtons_Example.debug.xcconfig */;
+			baseConfigurationReference = 3E144E3CE5A304C6B62B285EC7B426D3 /* Pods-YFPopupButtons_Example.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -452,7 +517,7 @@
 		};
 		7BF88AFECFEE98C2325A0986874FDE0C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 51704F5C31C1209E9350AA843F9FDE26 /* YFPopupButtons.xcconfig */;
+			baseConfigurationReference = F7BB1F72A7039692E3E595B492DAD756 /* YFPopupButtons.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -473,6 +538,7 @@
 				PRODUCT_NAME = YFPopupButtons;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -481,7 +547,7 @@
 		};
 		92F67E9BEB7E881D8222BC74731F1739 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 244AD7D973F1571E7EBC41FF600A72F9 /* Pods-YFPopupButtons_Example.release.xcconfig */;
+			baseConfigurationReference = 49681DC714DD4634895904CF89BFC365 /* Pods-YFPopupButtons_Example.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -514,7 +580,7 @@
 		};
 		9D663D24012F34A90E5EAAAAB4797298 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 51704F5C31C1209E9350AA843F9FDE26 /* YFPopupButtons.xcconfig */;
+			baseConfigurationReference = F7BB1F72A7039692E3E595B492DAD756 /* YFPopupButtons.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -536,44 +602,12 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		C5E957626CF86A26F434A3F10D46690E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 52B4DB0C122C24B16A1E9E44E0CB2BE3 /* Pods-YFPopupButtons_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-YFPopupButtons_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-YFPopupButtons_Tests/Pods-YFPopupButtons_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_YFPopupButtons_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -613,60 +647,28 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				ONLY_ACTIVE_ARCH = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_VERSION = 3.0;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		D8A3697C5FB945F31E01CDF8D1C7CDDC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA25A8B814B7492AD8EB4F5CDDC6F334 /* Pods-YFPopupButtons_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-YFPopupButtons_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-YFPopupButtons_Tests/Pods-YFPopupButtons_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_YFPopupButtons_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		049B68C65EC00793BBD777ECDA0C6854 /* Build configuration list for PBXNativeTarget "YFPopupButtons-YFPopupButtons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D3C3686C70D45D65D2C62A6FBAC2A32 /* Debug */,
+				32CFF7955CCAC0B67716C29675934DF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
 				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		479DD3AC411144A6E5F3955FF37174FE /* Build configuration list for PBXNativeTarget "Pods-YFPopupButtons_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D8A3697C5FB945F31E01CDF8D1C7CDDC /* Debug */,
-				C5E957626CF86A26F434A3F10D46690E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

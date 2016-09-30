@@ -14,8 +14,8 @@ import UIKit
     func itemSize(buttonsView: YFPopupButtonsView) -> CGSize
     func buttonsView(buttonsView: YFPopupButtonsView, itemForIndex index: Int) -> YFPopupbotton
     func buttonsView(buttonsView: YFPopupButtonsView, didTapItemAtIndex index: Int)
-    optional func sideMargin(buttonsView: YFPopupButtonsView) -> CGFloat
-    optional func spaceBetweenRows(buttonsView: YFPopupButtonsView) -> CGFloat
-    optional func buttonsViewWillDisappear(buttonsView: YFPopupButtonsView)
-    optional func buttonsViewWillAppear(buttonsView: YFPopupButtonsView)
+    @objc optional func sideMargin(buttonsView: YFPopupButtonsView) -> CGFloat
+    @objc optional func spaceBetweenRows(buttonsView: YFPopupButtonsView) -> CGFloat
+    @objc optional func buttonsViewWillDisappear(buttonsView: YFPopupButtonsView)
+    @objc optional func buttonsViewWillAppear(buttonsView: YFPopupButtonsView)
 }
